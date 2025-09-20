@@ -31,7 +31,7 @@ const Project = () => {
  
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className={styles.projectCont}>
         <div>
         <h1>My <span>Project</span></h1>

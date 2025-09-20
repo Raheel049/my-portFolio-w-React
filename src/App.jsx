@@ -8,6 +8,7 @@ import Contact from './pages/contact/contact'
 import { useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 
+
 const App = () => {
 
   const location = useLocation();
@@ -22,13 +23,18 @@ const App = () => {
 
   return (
     <>
-          <Routes>
+          {/* <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/about' element={<About />}></Route>
             <Route path='/project' element={<Project />}></Route>
             <Route path='/contact' element={<Contact />}></Route>
 
-          </Routes>
+          </Routes> */}
+
+          <Home />
+          <About />
+          <Project />
+          <Contact />
     </>
   )
 }

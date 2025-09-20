@@ -14,14 +14,14 @@ const About = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={styles.mainCont}>
         <div className={styles.about}>
           <h1>About <span className={styles.mySelfColor}>MySelf</span></h1>
           <h3>Discover more about my skills and expertise. 🔍</h3>
           <p>
             <span className={styles.paraStyle}>
-            I am a Frontend Developer and a BS Computer Science student,
+            I am a Frontend Developer and a BS Computer Sgit cience student,
             currently learning MERN Stack Development.
             
               </span>

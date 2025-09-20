@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={styles.contactCont}>
         <h1>
           Get in <span className={styles.touch}>Touch</span>
