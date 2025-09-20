@@ -2,8 +2,8 @@ import React from "react";
 import ProjectCard from "../../component/projectCard";
 import styles from "./project.module.css"
 import pro1Img from "./pro1Img.webp"
-import pro2Img from "./pro2Img.jpeg"
-import pro3Img from "./pro3Img.jpg"
+import pro2Img from "./pro2img.jpeg"
+import pro3Img from "./pro3img.jpg"
 import behancePic from "./behanceImg.png"
 import todoSimp from "./simpleTodo.png"
 import namazImg from "./namazImg.png"
