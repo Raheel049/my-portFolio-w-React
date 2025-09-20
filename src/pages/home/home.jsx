@@ -61,6 +61,7 @@ const Home = () => {
   return (
     <>
         <Navbar />
+        <section id="home">This is Home</section>;
         <h1 style={{textAlign:"center"}}>
           <span className={styles.headSty}>Hello, I am</span> <span style={{color:"white"}}>{displayText}</span>
         </h1>

@@ -23,16 +23,7 @@
     transition: transform 0.3s ease-in;
   }
   
-  .introCont p:hover {
-    transform: translateX(0);
-    font-size: 22px;
-    background: linear-gradient(to right, #e78d18 0%, #81eaec 100%);
-  -webkit-background-clip: text; /* Chrome, Safari */
-  -webkit-text-fill-color: transparent; /* Chrome, Safari */
-  background-clip: text; /* Standard property (Firefox me support) */
-  color: transparent; /* fallback */
-  }
-  
+ 
 
 .introCont h1{
     padding-left: 5%;
@@ -142,6 +133,19 @@
   -webkit-text-fill-color: transparent; /* Chrome, Safari */
   background-clip: text; /* Standard property (Firefox me support) */
   color: transparent; /* fallback */
+}
+
+@media only screen and (min-width: 700px){
+  .introCont p:hover {
+    transform: translateX(0);
+    font-size: 22px;
+    background: linear-gradient(to right, #e78d18 0%, #81eaec 100%);
+  -webkit-background-clip: text; /* Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari */
+  background-clip: text; /* Standard property (Firefox me support) */
+  color: transparent; /* fallback */
+  }
+  
 }
 
 

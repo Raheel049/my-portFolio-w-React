@@ -15,6 +15,7 @@ const About = () => {
   return (
     <>
       {/* <Navbar /> */}
+      <section id="about">This is About</section>;
       <div className={styles.mainCont}>
         <div className={styles.about}>
           <h1>About <span className={styles.mySelfColor}>MySelf</span></h1>

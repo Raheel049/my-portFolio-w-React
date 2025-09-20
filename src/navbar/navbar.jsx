@@ -7,16 +7,20 @@ const Navbar = () => {
     <div className={styles.nav}>
         <ul className={styles.navElement}>
             <li>
-                <Link to="/">Home</Link>
+            <a href="#home">Home</a>
+                {/* <Link to="/">Home</Link> */}
             </li>
             <li>
-                <Link to="/about">About</Link>
+            <a href="#about">About</a>
+                {/* <Link to="/about">About</Link> */}
             </li>
             <li>
-                <Link to="/project">Project</Link>
+            <a href="#project">Project</a>
+                {/* <Link to="/project">Project</Link> */}
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+            <a href="#contact">Contact</a>
+                {/* <Link to="/contact">Contact</Link> */}
             </li>
         </ul>
     </div>

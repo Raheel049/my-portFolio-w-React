@@ -32,6 +32,7 @@ const Project = () => {
   return (
     <>
       {/* <Navbar/> */}
+      <section id="project">This is Project</section>;
       <div className={styles.projectCont}>
         <div>
         <h1>My <span>Project</span></h1>
