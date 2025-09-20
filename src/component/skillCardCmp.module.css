@@ -1,0 +1,35 @@
+.SkillCard{
+    height: 300px;
+    width: 180px;
+    border: 1px solid rgb(156, 117, 2);
+    border-radius: 20px;
+    padding: 12px;
+    transition: transform 0.3s ease, border 0.3s ease; 
+    /* margin-bottom: 0; */
+}
+
+.SkillCard h3{
+    text-align: center;
+    color: white;
+}
+
+.SkillCard:hover{
+    border: 1px solid rgb(244, 191, 35);
+    transform: translateY(-5px); 
+}
+
+@media only screen and (max-width:700px) {
+    .SkillCard{
+        width: 80%;
+        border: 1px solid  rgb(156, 117, 2);
+        height: 200px;
+        transition: transform 0.3s ease, border 0.3s ease; 
+
+    }
+
+    .SkillCard:hover{
+        border: 1px solid rgb(244, 191, 35);
+        transform: translateY(-5px); 
+    }
+    
+}

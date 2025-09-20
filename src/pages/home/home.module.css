@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.introCont{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color: #121212; */
+
+}
+
+
+
+.introCont p {
+    width: 60%;
+    font-size: 21px;
+    display: inline-block;
+    color: #c1c1c0;
+    transform: translateX(10px); /* ✅ px add kiya */
+    transition: transform 0.3s ease-in;
+  }
+  
+  .introCont p:hover {
+    transform: translateX(0);
+    font-size: 22px;
+    background: linear-gradient(to right, #e78d18 0%, #81eaec 100%);
+  -webkit-background-clip: text; /* Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari */
+  background-clip: text; /* Standard property (Firefox me support) */
+  color: transparent; /* fallback */
+  }
+  
+
+.introCont h1{
+    padding-left: 5%;
+    margin: 20px 0;
+}
+
+.paraImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+
+}
+
+
+.paraImg img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    transform: translateX(-20px);
+    transition: transform 0.3s ease-in;
+}
+
+.paraImg img:hover {
+    /* width: 220px;
+    height: 220px; */
+    transform: scale(1.1);
+    /* transform: translateX(0); */
+
+  }
+
+
+.whatsApCvBtnCont{
+    height: 100px;
+    /* width: 100%; */
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.whBtn{
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #e78d18 0%, #dd2c26 100%);
+    cursor: pointer;
+    
+}
+
+.whBtn:hover {
+    -webkit-box-shadow: 1px 8px 13px -1px #e78d18; 
+    box-shadow: 1px 8px 13px -1px #e78d18;
+    transform: scale(1.1);
+  }
+  
+
+.cvBtn{
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.cvBtn:hover{
+    
+        
+        transform: scale(1.1);
+
+        -webkit-box-shadow: 1px 8px 13px -1px #e78d18; 
+        box-shadow: 1px 8px 13px -1px #e78d18;
+}
+
+.cvBtn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 30px; /* same as button radius */
+    padding: 3px; /* border thickness */
+    background: linear-gradient(to right, #e78d18, #dd2c26);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: -1; /* background me rahe */
+  }
+
+.headSty{
+    background: linear-gradient(to right, #e78d18 0%, #dd2c26 100%);
+  -webkit-background-clip: text; /* Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari */
+  background-clip: text; /* Standard property (Firefox me support) */
+  color: transparent; /* fallback */
+}
+
+
+@media only screen and (max-width: 700px) {
+    .introCont {
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .introCont p {
+      width: 90%;
+      font-size: 16px;
+      margin: 0 auto;
+    }
+  
+    .paraImg {
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  
+    .paraImg img {
+      width: 200px;
+      height: 200px;
+    }
+
+    
+    .whatsApCvBtnCont {
+      justify-content: center;
+      margin-left: 0;
+    }
+  }
+  
+  
