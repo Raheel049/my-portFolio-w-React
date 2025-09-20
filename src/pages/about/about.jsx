@@ -26,12 +26,7 @@ const About = () => {
             
               </span>
               I am eager to join a
-              software company to gain hands-on experience,
-              enhance my skills, and
-            work on real-world applications.
-               
-              I am highly motivated to contribute
-            to impactful projects and continue growing as a developer.
+              software company.
                 
           </p>
         </div>
